@@ -5,13 +5,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useLocation,
-} from "react-router-dom";
 
 import TopNav from "./pages/nav/top-navbar/TopNav";
 import Footer from "./pages/nav/footer/Footer";
@@ -19,14 +12,7 @@ import Homepage from "./pages/homepage/Homepage";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <TopNav />
-      <App />
-      <Switch>
-        <Route exact path="/" component={Homepage} />
-      </Switch>
-      <Footer />
-    </Router>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -59,7 +59,7 @@
   transition: 0.3s;
 }
 
-.navlist.active p {
+/* .navlist.active p {
   color: #9c90c9 !important;
   transition: 0.3s;
 }
@@ -67,7 +67,7 @@
 .transparent .navlist.active p {
   color: #a5a5a5 !important;
   transition: 0.3s;
-}
+} */
 
 .navlist p.transparent:hover {
   color: #e4e4e4 !important;

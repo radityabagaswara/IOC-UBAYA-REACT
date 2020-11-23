@@ -4,6 +4,7 @@ import Aktivitas from "../aktivitas/Aktivitas";
 import Booking from "../booking/Booking";
 import Fasilitas from "../fasilitas/Fasilitas";
 import Header from "../header/Header";
+import News from "../news/News";
 import "./Homepage.css";
 
 const Homepage = (props) => {
@@ -13,7 +14,7 @@ const Homepage = (props) => {
       <div style={{ marginTop: "100px" }}>
         <div className="content">
           <div className="container">
-            <AboutComponent />
+            <AboutComponent renderButton={true} />
           </div>
         </div>
 
@@ -52,6 +53,20 @@ const Homepage = (props) => {
           </div>
         </div>
 
+        <div className="content-2">
+          <div className="container">
+            <div className="content-header">
+              <h3>Berita</h3>
+              <p>
+                Consequat nostrud nostrud quis sunt eiusmod elit irure aliquip
+                enim laboris est ad sunt mollit.
+              </p>
+            </div>
+            <div className="mb-3">
+              <News />
+            </div>
+          </div>
+        </div>
         <div className="container box">
           <Booking />
         </div>

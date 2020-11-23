@@ -15,40 +15,19 @@ const TopNav = (props) => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto">
-                <NavLink
-                  exact
-                  to="/"
-                  className="navlist nav-link"
-                  activeClassName="active"
-                >
+                <NavLink exact to="/" className="navlist nav-link active">
                   <p>Beranda</p>
                 </NavLink>
-                <NavLink
-                  to="/about"
-                  className="navlist nav-link"
-                  activeClassName="active"
-                >
+                <NavLink to="#" className="navlist nav-link">
                   <p>Tentang Kami</p>
                 </NavLink>
-                <NavLink
-                  to="/stars"
-                  className="navlist nav-link"
-                  activeClassName="active"
-                >
+                <NavLink to="#" className="navlist nav-link">
                   <p>Galeri</p>
                 </NavLink>
-                <NavLink
-                  to="/story"
-                  className="navlist nav-link"
-                  activeClassName="active"
-                >
+                <NavLink to="#" className="navlist nav-link">
                   <p>Blog</p>
                 </NavLink>
-                <NavLink
-                  to="/jadwal"
-                  className="navlist nav-link"
-                  activeClassName="active"
-                >
+                <NavLink to="#" className="navlist nav-link">
                   <p>Kontak Kami</p>
                 </NavLink>
               </Nav>
