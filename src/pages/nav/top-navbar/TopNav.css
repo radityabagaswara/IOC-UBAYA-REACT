@@ -1,0 +1,75 @@
+.logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+  line-height: 1;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 700 !important;
+  color: #2d405f !important;
+}
+
+.logo.transparent {
+  color: #fff !important;
+}
+
+.transparent {
+  background: transparent !important;
+}
+
+@media (max-width: 990px) {
+  .logo {
+    font-size: 24px;
+  }
+}
+
+#navbar {
+  background: #fff;
+  border-bottom: 2px solid #eceefe;
+  transition: all 0.5s;
+  padding: 5px 0;
+}
+
+#navbar.transparent {
+  border-bottom: unset !important;
+}
+
+.transparent .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navlist p.transparent {
+  color: #fff !important;
+}
+
+.navlist p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  color: #2d405f;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 600 !important;
+}
+
+.navlist p:hover {
+  color: #8c78d6 !important;
+  transition: 0.3s;
+}
+
+.navlist.active p {
+  color: #9c90c9 !important;
+  transition: 0.3s;
+}
+
+.transparent .navlist.active p {
+  color: #a5a5a5 !important;
+  transition: 0.3s;
+}
+
+.navlist p.transparent:hover {
+  color: #e4e4e4 !important;
+  transition: 0.3s;
+}

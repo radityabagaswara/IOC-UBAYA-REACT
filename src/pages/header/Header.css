@@ -1,0 +1,63 @@
+.header .carousel,
+.header .carousel-item {
+  height: 100vh;
+}
+
+.header .carousel-item .car-heading {
+  position: absolute;
+  right: 15%;
+  bottom: 50vh;
+  left: 15%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+
+.header .carousel-item .car-heading h1 {
+  font-size: 60px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.2px !important;
+  font-weight: 900 !important;
+  text-shadow: 2px 2px 15px #000;
+}
+
+.header .carousel-item .car-heading p {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.2px !important;
+  text-shadow: 3px 2px 5px #000;
+}
+
+@media (max-width: 1440px) {
+  .header .carousel-item .car-heading {
+    position: absolute;
+    right: 15%;
+    bottom: 60vh;
+    left: 15%;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 984px) {
+  .header .carousel-item .car-heading {
+    position: absolute;
+    right: 15%;
+    bottom: 70vh;
+    left: 15%;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
+}

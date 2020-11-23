@@ -1,13 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.box {
+  background-color: #fff;
+  box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.07);
+  padding: 60px 20px 40px;
+  margin: 0 25px;
+  border-radius: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+.content {
+  margin: 60px 0;
+}
+
+.content-2 {
+  background-color: #f6f8fb;
+  margin: 60px 0;
+  padding: 60px 0;
+  border-bottom: 2px solid #eceefe;
+  border-top: 2px solid #eceefe;
+}
+
+.btn-text {
+  transition: 0.2s;
+  font-size: 16px !important;
+  color: #363e4d !important;
+}
+
+.btn-text:hover {
+  transition: 0.2s;
+  color: #5883d3 !important;
+}
+
+.btn-primary {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700 !important;
+  background-color: #733da0 !important;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled:hover {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700 !important;
+  color: #fff !important;
+  background-color: #733da0 !important;
+}
+
+.btn-primary:hover {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700 !important;
+  background-color: #c9c3ce !important;
+  color: #263547 !important;
+}
+
+.btn-danger {
+  font-family: "Heebo", sans-serif;
+  font-weight: 500 !important;
+}
+
+.content-header {
+  text-align: center !important;
+}
+
+.content-header h3::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 50px;
+  margin: 10px 0;
+  height: 3px;
+  background: linear-gradient(to right, #337099, #7563b4);
+  left: calc(50% - 25px);
 }
